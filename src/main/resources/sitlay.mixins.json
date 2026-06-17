@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.duongdev.sitlay.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "EntityMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

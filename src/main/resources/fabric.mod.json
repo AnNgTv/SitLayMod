@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "sitlay",
+  "version": "${version}",
+  "name": "Sit and Lay",
+  "description": "Simple mod to sit and lay down.",
+  "authors": [
+    "DuongDev"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/sitlay/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duongdev.sitlay.SitLayMod"
+    ]
+  },
+  "mixins": [
+    "sitlay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.25",
+    "fabric": "*",
+    "minecraft": "1.17.1",
+    "java": ">=16"
+  }
+}
