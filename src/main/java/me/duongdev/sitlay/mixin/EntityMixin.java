@@ -1,8 +1,7 @@
-package me.luckyvn.sitlay.mixin;
+package me.duongdev.sitlay.mixin;
 
-import me.luckyvn.sitlay.SitLayMod;
+import me.duongdev.sitlay.SitLayMod;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.decoration.ArmorStandEntity;
 import net.minecraft.server.network.ServerPlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
