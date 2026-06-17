@@ -76,7 +76,7 @@ public class SitLayMod implements ModInitializer {
 
             if (entity instanceof PlayerEntity targetPlayer) {
                 if (player.isSneaking() && player.getStackInHand(hand).isEmpty()) {
-                    if (!player.hasVehicle() && !targetPlayer.isPassenger()) {
+                    if (!player.hasVehicle() && !targetPlayer.hasVehicle()) {
                         player.startRiding(targetPlayer, true);
                         player.sendMessage(new LiteralText("§aYou are now sitting on §6" + targetPlayer.getName().getString()), false);
                         return ActionResult.SUCCESS;
