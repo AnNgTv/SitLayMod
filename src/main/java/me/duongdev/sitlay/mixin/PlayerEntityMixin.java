@@ -1,6 +1,6 @@
-package me.luckyvn.sitlay.mixin;
+package me.duongdev.sitlay.mixin;
 
-import me.luckyvn.sitlay.SitLayMod;
+import me.duongdev.sitlay.SitLayMod;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityPose;
 import net.minecraft.entity.player.PlayerEntity;
